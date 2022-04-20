@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      .icon-menu {
+         position: relative;
+         width: 18px;
+         height: 18px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         flex: 0 0 30px;
+         transition: all 0.3s ease 0s;
+      }
+
+      .icon-menu:before,
+      .icon-menu:after {
+         content: "";
+         background-color: olivedrab;
+         height: 3px;
+      }
+
+      .icon-menu span {
+         height: 3px;
+         background-color: orange;
+      }
+
+      .icon-menu:hover {
+         /* transform: rotate(90deg); */
+         width: 28px;
+      }
+
+      .icon-menu-close {
+         width: 25px;
+         height: 20px;
+         position: relative;
+         left: 30px;
+         top: -10px;
+         display: flex;
+         flex-direction: column;
+         /* background-color: #000; */
+      }
+
+      /* .icon-menu-close span{
+         height: 3px;
+         background-color: rgb(25, 0, 255);
+      } */
+
+      .icon-menu-close:before,
+      .icon-menu-close:after {
+         content: "";
+         height: 1px;
+         background-color: #000;
+      }
+
+      .icon-menu-close:before {
+         transform: rotate(50deg);
+      }
+
+      .icon-menu-close:after {
+         transform: rotate(-50deg);
+      }
+
+      .icon-menu-close:before:hover,
+      .icon-menu-close:after:hover {
+         background-color: blue;
+      }
+body{
+   position: relative;
+}
+      header {
+         height: 120px;
+         background-color: aliceblue;
+         position: sticky;
+         top: -50px;
+
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .header-inner {
+         width: 900px;
+         height: 70px;
+         background-color: aliceblue;
+         text-align: center;
+         text-justify: auto;
+
+         position: sticky;
+         top: 0;
+         transition: all 1s ease 0s;
+      }
+      .content{
+         min-height: 2000px;
+      }
+   </style>
+</head>
+
+<body>
+   <a href="#menu" class="icon-menu"><span> </span></a>
+   <a href="" class="icon-menu-close"><span></span></a>
+   <header>
+      <div class="header-inner">test.html</div>
+   </header>
+   <div class="content"></div>
+</body>
+
+</html>
