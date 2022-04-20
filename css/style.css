@@ -587,3 +587,35 @@ body {
       width: 290px;
    }
 }
+
+/* =========================================== */
+.experts {
+   background-color: #fafbfd;
+   padding: 53px 0px 116px 0px;
+}
+.experts__container {
+}
+.experts__statistics {
+}
+
+.statistics-experts {
+}
+.statistics-experts__body {
+}
+.statistics-experts__decor {
+}
+.statistics-experts__decor-1 {
+}
+.statistics-experts__decor-2 {
+}
+.statistics-experts__decor-3 {
+}
+
+.body-statistics-experts {
+}
+.body-statistics-experts__item {
+}
+.body-statistics-experts__value {
+}
+.body-statistics-experts__text {
+}
